@@ -1,0 +1,91 @@
+/* btn */
+#EVA_TimeLine_btn {
+	color: var(--Bleu-texte);
+}
+#EVA_TimeLine_btn {
+	cursor: pointer;
+}
+#EVA_TimeLine_btn:hover {
+	text-decoration: underline;
+}
+/* popup */
+/* mask */
+#EVA_TimeLine_popup {
+	display: flex;
+	
+	position:fixed;
+	padding:0;
+	margin:0;
+	
+	top:0;
+	left:0;
+	
+	width: 100%;
+	height: 100%;
+	
+	background: rgba(0, 0, 0, 0.1);
+}
+/* popup */
+#EVA_TimeLine_popup > div:nth-child(1) {
+	margin: 5rem auto auto auto;
+	background: white;
+	border-radius: 7px;
+}
+/* header */
+#EVA_TimeLine_popup > div:nth-child(1) > div:nth-child(1) {
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.EVA_TimeLine_title {
+	color: #1a73e8;
+}
+.EVA_TimeLine_title:not(:first-child) {
+	margin-top: 7px;
+}
+#EVA_TimeLine_popup i {
+	margin-left: 15px;
+	padding: 7px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+#EVA_TimeLine_popup i:hover {
+	background: #f1f3f4;
+}
+/* body */
+#EVA_TimeLine_popup table::parent {
+	display: flex;
+	padding: 10px;
+}
+#EVA_TimeLine_popup table {
+	margin: auto;
+}
+#EVA_TimeLine_popup table tr td:nth-child(1) {
+	text-align: end;
+}
+/* popup info */
+#EVA_TimeLine_popupInfo {
+	position: absolute;
+	display: flex;
+	max-height: 40%;
+	width: 100%;
+}
+#EVA_TimeLine_popupInfo > div {
+	margin: 0 auto;
+	background: white;
+	padding: 0 10px 10px 10px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	overflow: auto;
+}
+#EVA_TimeLine_popupInfo > div > div:nth-child(1) {
+	color: #1a73e8;
+	margin: 7px 0;
+}
+#EVA_TimeLine_popupInfo thead {
+	position: sticky;
+	top: 0;
+}
+#EVA_TimeLine_popupInfo td, #EVA_TimeLine_popupInfo th {
+	padding: 1px 5px;
+}

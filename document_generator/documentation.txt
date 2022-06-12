@@ -1,0 +1,28 @@
+Description des fichiers
+    - Le fichier "package.json" contient les dépendances du programme
+    - Le fichier "mains.js" est le fichier principal
+    - Le dossier "src" contient les fichiers js sources
+        - Le fichier "config.js" contient la configuration du programme
+        - Le fichier "fonction.js" contient les fonctions du programme
+        - Le fichier "attributes.js" est le fichier "node_modules/w3c-xmlserializer/lib/attributes.js" modifié pour autoriser les ":" dans un attribut XML
+    - Le fichier modele TableStats.ods
+    - Le fichier modele TableStats.odt
+
+Manuel d'installation
+
+    Prérequis :
+        - Node.js version 10 minimum
+        - NPM
+
+    Dans un dossier, ajouter :
+        - le dossier "src"
+        - le fichier "main.js"
+        - le fichier "package.json"
+
+    Installez les dépendances avec la commande "npm i"
+    Remplacer le fichier "node_modules/w3c-xmlserializer/lib/attributes.js" par "attributes.js"
+
+    Ajouter les fichiers templates dans le dossier templates
+    Modifier le fichier "config.js"
+
+    Lancez le programme avec la commande "node main.js"
